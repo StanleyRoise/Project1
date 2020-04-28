@@ -1,0 +1,39 @@
+import java.until.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        char robot;
+        Scanner skener = new Scanner(System.in);
+        String objectInFrontOfRobot = skener.nextLine();
+        objectInFrontOfRobot.toLowerCase();
+
+        if (objectInFrontOfRobot.equals("стол")) {
+            System.out.println("Robot Jumps over it");
+
+            if (objectInFrontOfRobot.equals("стена")) {
+                System.out.println("Robot goes sideways");
+
+            }
+            if (objectInFrontOfRobot.equals("нищо")) {
+                System.out.println("Robot goes Forward");
+
+            }
+        }
+        public static void main1 () {
+            Scanner skener = new Scanner(System.in);
+
+            System.out.print("Please say how much pixels are on the screen: ");
+            int numberOfPixelsOnTheScreen = skener.nextInt();
+            boolean isPixelsAnEvenNumber = (numberOfPixelsOnTheScreen % 2 == 0);
+            if (PixelsAnEvenNumber == true) {
+                System.out.println("Беги я убии бе");
+
+            }
+            if (PixelsAnEvenNumber == false) {
+                System.out.println("скри се д***а");
+                objectsAndRobots();
+            }
+        }
+    }
+
