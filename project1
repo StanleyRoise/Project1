@@ -23,16 +23,16 @@ public class Main {
         public static void main1 () {
             Scanner skener = new Scanner(System.in);
 
-            System.out.print("Please say how much pixels are on the screen: ");
+            System.out.print("Tell how much pixels are on the screen: ");
             int numberOfPixelsOnTheScreen = skener.nextInt();
-            boolean isPixelsAnEvenNumber = (numberOfPixelsOnTheScreen % 2 == 0);
+            boolean PixelsAnEvenNumber = (numberOfPixelsOnTheScreen % 2 == 0);
             if (PixelsAnEvenNumber == true) {
                 System.out.println("Беги я убии бе");
 
             }
             if (PixelsAnEvenNumber == false) {
                 System.out.println("скри се д***а");
-                objectsAndRobots();
+                
             }
         }
     }
