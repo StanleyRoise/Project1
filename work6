@@ -1,0 +1,33 @@
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.println("Vuvedi:");
+        System.out.println("1 work with numbers ");
+        System.out.println("2 work with words ");
+        System.out.println("3 - exit");
+        Scanner scanimp = new Scanner(System.in);
+        System.out.println();
+        System.out.println("Enter \"1\", \"2\" or \"3\"");
+        int choice = scanimp.nextInt();
+
+        while (choice != 3) {
+
+            if (choice < 1 || choice> 3) {
+
+                System.out.println("Enter \"1\", \"2\", \"3\" or \"4\"");
+                choice = scanimp.nextInt();
+
+            } else if (choice == 1) {
+
+            } else if (choice == 2) {
+
+            } else if (choice == 3) {
+
+            }
+        }
+
+        }
+
+
+
+    }
